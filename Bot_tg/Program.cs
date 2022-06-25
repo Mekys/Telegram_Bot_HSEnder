@@ -30,7 +30,7 @@ namespace Bot_tg
         public static bool ok = true;
         static string[] Curs = { "Выберите свой курс", "Выберите cвою ОП", "выберите свою группу", "Отлично! Теперь жди от нас сообщений,студент." };
         static string path = NewTimeTable_path;
-        static TelegramBotClient botClient = new TelegramBotClient("5120683940:AAFLiyPv2qDWMFiiLSHy99Xq5GuYmmD7L0I");
+        static TelegramBotClient botClient = new TelegramBotClient("Token");
         static Dictionary<long, UserStates> clientStates = new Dictionary<long, UserStates>();
         static ReplyKeyboardMarkup StartMenu = new(new[]
             {
