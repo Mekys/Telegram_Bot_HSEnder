@@ -1,2 +1,2 @@
 # Telegram_Bot_HSEnder
-Для запуска программы нужно заменить Token (Program.cs 33 строка) на токен телеграм бота.
+Telegram bot for notify students about changing in their schedule. Final work of first course. Used TelegramBotApi for communication with telegram, Microsoft.Office.Interop for read excel document. 
